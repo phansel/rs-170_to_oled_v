@@ -7,7 +7,7 @@ RS-170 is ~30 frames per second; each frame is officially composed of 485 780-pi
 
 The FPGA is a Spartan6 LX9, speed grade -2 from Xilinx. It has about 80 output pins and an internal 50 MHz clock, so it should be enough for this application.
 
-The OLED is a 1-bit 64x48 display driven by the SSD1306 that takes data in over I2C, SPI, and either an 8080- or 6800-style parallel interface. This library is designed around the 6800-style interface.
+The OLED is a 1-bit 64x48 display driven by the SSD1306 that can read data in over I2C, SPI, or 8080-/6800-style parallel interfaces. This library is designed around the 6800-style interface.
 
 The ADC08100 is an extremely low-power 20-100 MSPS analog-to-digital converter from TI that is sufficient for ~5 bits of RS-170 video depth, or more if opamps are used to dynamically control the range. The current hardware for this project does not permit this.
 
