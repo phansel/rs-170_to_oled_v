@@ -1,1 +1,46 @@
-// UCF goes here
+NET "clk" TNM_NET = clk;
+TIMESPEC TS_clk = PERIOD "clk" 10 kHz HIGH 50%;
+
+NET "clk" LOC = P56;
+NET "rst_n" LOC = P38;
+
+NET "adc_clk" LOC = P81;
+NET "adcd<0>" LOC = P88;
+NET "adcd<1>" LOC = P87;
+NET "adcd<2>" LOC = P86;
+NET "adcd<3>" LOC = P85;
+NET "adcd<4>" LOC = P84;
+NET "adcd<5>" LOC = P83;
+NET "adcd<6>" LOC = P82;
+NET "adcd<7>" LOC = P80;
+
+NET "oled_dc" LOC = P94;
+NET "oled_e" LOC = P132;
+NET "oled_rw" LOC = P133;
+NET "oled_cs" LOC = P97;
+NET "oled_reset" LOC = P98;
+NET "oled_data<0>" LOC = P92;
+NET "oled_data<1>" LOC = P93;
+NET "oled_data<2>" LOC = P95;
+NET "oled_data<3>" LOC = P131;
+NET "oled_data<4>" LOC = P127;
+NET "oled_data<5>" LOC = P126;
+NET "oled_data<6>" LOC = P124;
+NET "oled_data<7>" LOC = P123;
+
+
+NET "led134" LOC = P134;;
+
+
+NET "spi_mosi" LOC = P44;
+NET "spi_miso" LOC = P45;
+NET "spi_ss" LOC = P48;
+NET "spi_sck" LOC = P43;
+NET "spi_channel<0>" LOC = P46;
+NET "spi_channel<1>" LOC = P61;
+NET "spi_channel<2>" LOC = P62;
+NET "spi_channel<3>" LOC = P65;
+
+NET "avr_tx" LOC = P55;
+NET "avr_rx" LOC = P59;
+NET "avr_rx_busy" LOC = P39;
