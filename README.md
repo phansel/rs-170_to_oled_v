@@ -14,3 +14,5 @@ The ADC08100 is an extremely low-power 20-100 MSPS analog-to-digital converter f
 This OLED driver chip has been driven at speeds up to (and possibly exceeding) 500Hz; so PWMing the display to increase the bit depth is the next step. To achieve 3 effective bits, each of the 30 RS-170 frames would be converted to 8 bitmaps with different brightness thresholds, which would then be displayed sequentially for a total speed of 240 Hz (or, with frame doubling, 480 Hz). With better hardware on the ADC end, better bitdepth is no doubt possible.
 
 This is a work in progress. I would not recommend building it, as you will get thrown a number of errors.
+
+UPDATE: As of May 2017, this repository will not be updated further as the display failed.
